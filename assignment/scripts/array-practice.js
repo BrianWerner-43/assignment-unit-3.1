@@ -49,14 +49,14 @@ console.log('Second animal is:', secondAnimal);
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
 let lastAnimal = animalArray[3];
-console.log('Last animal is:', lastAnimal, animalArray);
+console.log('Last animal is:', lastAnimal);
+console.log('Animal array is:', animalArray);
 
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
 let animal = animalArray.length -1;
 console.log('Refractored lastAnimal:', animal, animalArray);
-
 
 
 // Adding & Removing Array Items
@@ -73,7 +73,8 @@ console.log('Added an animal to end,', animalArray);
 //      array. (How can you be 100% certain this worked? 🤔)
 let dessert = 'Pot de Creme';
 favoriteFoods.push(dessert);
-console.log('Added dessert to the end:', dessert, favoriteFoods);
+console.log('Added dessert to the end:', dessert);
+console.log('New favorite foods is:', favoriteFoods);
 
 
 // Example: Add to the beginning of an array using the Array.unshift method.
